@@ -44,7 +44,7 @@ document.addEventListener('keydown', (e) => {
 //   document.getElementById('opponent').remove();
 // }
 
-document.addEventListener('click', function(e) {
+square.addEventListener('click', function(e) {
   square.style.background = '#' + Math.floor(Math.random()* 16777215).toString(16)
   })
 
